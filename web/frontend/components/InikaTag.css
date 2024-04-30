@@ -1,0 +1,66 @@
+.inikaTagBG {
+    background-color: #F4D7BD; /* Set your desired background color */
+    width: 100%;
+    padding: 20;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* text-align: center; */
+}
+
+
+ /* CSS for Logo */
+
+ .TagImage {
+    width: 200px;
+    height: auto; /* 20px spacing between image and chatbot */
+    align-items: center;
+  }
+
+
+
+  .TagImageContainer {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+ .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+ .buttonContainer-view {
+    margin-left: 80%;
+    position: absolute;
+    margin-bottom: 10%;
+  }
+
+  .image-wrapper {
+    flex: 0 0 20%; /* Adjust this value to control the number of images per row */
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000; /* Light gray border around each image */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* Shadow effect */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  }
+ 
+
+
+ 
